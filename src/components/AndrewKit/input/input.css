@@ -1,0 +1,33 @@
+.andrewkit-input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(201, 201, 201);
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.andrewkit-input:focus {
+  transition: border-color 1200ms;
+  border-color: rgb(0, 89, 255);
+  color: rgb(0, 89, 255);
+}
+
+.andrewkit-input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 1px;
+  border-radius: 10px;
+  background: rgb(0, 121, 235);
+  outline: none;
+}
+
+.andrewkit-input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}

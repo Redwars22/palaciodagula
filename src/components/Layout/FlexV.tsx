@@ -1,0 +1,14 @@
+export default function FlexV({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "16px",
+        alignItems: "center",
+      }}
+    >
+      {children}
+    </div>
+  );
+}

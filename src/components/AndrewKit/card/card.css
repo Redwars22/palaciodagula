@@ -1,0 +1,15 @@
+.andrewkit-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 15px -3px rgba(7, 7, 7, 0.3);
+}
+
+.andrewkit-card-without-outline {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.andrewkit-card-separator {
+  color: rgba(221, 221, 221, 0.123);
+}

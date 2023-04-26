@@ -1,0 +1,8 @@
+.andrewkit-banner-header,
+.andrewkit-banner-content {
+  padding: 0.5rem;
+}
+
+.andrewkit-banner {
+  box-shadow: 5px 5px 5px 0.5px rgba(0, 0, 0, 0.3);
+}

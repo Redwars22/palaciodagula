@@ -1,0 +1,1 @@
+export const defaultOrange = "#fa4902";
