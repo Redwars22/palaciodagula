@@ -24,3 +24,10 @@ export interface IItems {
 }
 
 export type IPaymentType = "credit-card" | "after-delivery" | null;
+
+export type IPaymentData = {
+    CCNumber: string | null;
+    CCOwner: string | null;
+    CCValidity: string | null;
+    CCCPF: string | null;
+}
