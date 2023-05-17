@@ -8,6 +8,7 @@ export interface IStore {
     paymentMethod: IPaymentType;
     changeStep: (value: Steps) => void;
     setState: (key: string, value: any) => void;
+    eraseState: () => void;
 }
 
 export type Steps = "1" | "2" | "3" | "4" | "5" | "6" | "7";

@@ -49,7 +49,7 @@ export default function StepChanger({
           appearance={"warning"}
           icon={"cart-plus"}
           action={() => {
-            store.changeStep(String(1) as Steps);
+            store.eraseState();
           }}
         />
       )}

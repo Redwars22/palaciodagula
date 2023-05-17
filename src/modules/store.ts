@@ -13,5 +13,14 @@ export const useGlobalStore = create<IStore>((set, get)=>({
     setState: (key: string, value: any) => set((s) => ({
         ...s,
         [key] : value
+    })),
+    eraseState: () => set((s)=>({
+        step: "1",
+        selectedBurger: "",
+        additions: null,
+        price: null,
+        zipCode: null,
+        number: null,
+        paymentMethod: null,
     }))
 }));
